@@ -523,6 +523,7 @@ def train(hyp, opt, device, tb_writer=None):
     torch.cuda.empty_cache()
     return results
 
+# TODO : main
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
